@@ -1,0 +1,28 @@
+{
+  "name": "dva-generator",
+  "version": "0.1.1",
+  "description": "基于react的dva代码生成器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "generator"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "camelcase": "^4.0.0",
+    "capitalize": "^1.0.0",
+    "dot": "^1.1.1",
+    "minimist": "^1.2.0",
+    "perfect-fetch": "^1.0.5",
+    "reserved-words": "^0.1.1"
+  },
+  "bin": {
+    "generate-dva": "./index.js"
+  },
+  "_from": "dva-generator@0.1.1",
+  "_resolved": "http://registry.npm.taobao.org/dva-generator/download/dva-generator-0.1.1.tgz"
+}
